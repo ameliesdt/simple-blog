@@ -1,3 +1,11 @@
+Preview:
+
+<img width="1425" alt="Bildschirmfoto 2022-09-17 um 14 05 38" src="https://user-images.githubusercontent.com/103680253/190855816-d3f29646-fba7-4a9f-be45-12f523f11678.png">
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
