@@ -1,0 +1,43 @@
+.navContainer {
+    display:flex;
+    justify-content:space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navContainer p {
+    font-size: 24px;
+    font-weight: 900;
+    color:#0D4625;
+}
+
+.Logo {
+    margin-left:96px;
+    margin-top:32px;
+}
+
+nav {
+    margin-right:96px;
+    margin-top:36.5px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align:center; 
+}
+
+nav > * {
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    color:#0D4625;
+    margin-left:48px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navContainer  {
+        background: rgba(255,255,255,0.5);
+        backdrop-filter: blur(5px);
+    }
+  }

@@ -1,0 +1,37 @@
+.homeHero {
+    background-image: url("../Images/lev2_2_js-reactjs_router_simple-blog.jpg");
+    height:50vh;
+    width:100%;
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+    position:relative;
+    z-index:-1;
+}
+
+.homeContainer {
+    width:100vw;
+}
+
+.homeHeading {
+    margin-left:5rem;
+    margin-top:108.5px;
+    font-weight:900;
+    width:250px;
+}
+
+h1 {
+    font-size:32px;
+    line-height:37.5px;
+    color:#0D4625;
+    margin-bottom:36px;
+}
+
+.homeBtn {
+    text-decoration: none;
+    color:#219653;
+    border:2px solid #32dc7c;
+    border-radius:9px;
+    padding:9px;
+    margin-top:150px;
+}

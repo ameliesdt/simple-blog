@@ -1,0 +1,40 @@
+.detailContainer {
+    margin-top:10rem;
+    color:#0D4625;
+    position:absolute;
+    z-index:-1;
+    right:0;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.textContainer {
+    margin-left:10rem;
+}
+
+.textContainer > * {
+    padding:1.5rem;
+}
+
+.detailImg {
+    width: 1120px;
+    min-height: 600px;
+}
+
+.authorTag {
+    font-weight:900;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .detailImg {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+  }
