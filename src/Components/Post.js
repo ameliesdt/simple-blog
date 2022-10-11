@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link} from "react-router-dom";
 import './Post.css';
 
    
@@ -7,7 +7,7 @@ const Post = (props) => {
     return  (
         <div className="gridContainer">
             <div className="postContainer">
-                <img src={props.img}/>
+                <img src={props.img} alt="beer"/>
                 <h2>{props.title}</h2>
                 <Link to={`/${props.id}`} className="linkBtn">Read more</Link>
             </div>

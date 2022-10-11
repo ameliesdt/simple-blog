@@ -61,3 +61,5 @@ let blogData = [
     }
    ];
    
+
+export default blogData;
